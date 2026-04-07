@@ -267,7 +267,7 @@ input, select, textarea {
 
 /* 图片核心：按比例最大化显示，不变形 */
 .icon-img {
-    width: 100% !important;
+    width: 50% !important;
     height: 100% !important;
     display: block !important;
 }
