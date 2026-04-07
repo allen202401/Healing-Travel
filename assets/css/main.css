@@ -355,7 +355,7 @@ input, select, textarea {
 		}
 
 		.row > .col-3 {
-			width: 25%;
+			width: 50%;
 		}
 
 		.row > .off-3 {
@@ -470,7 +470,10 @@ input, select, textarea {
 
 		.row.gtr-50 {
 			margin-top: -25px;
-			margin-left: -25px;
+			margin-left: auto;
+			margin-right: auto;
+			width: 100%;
+			max-width: 100%;
 		}
 
 			.row.gtr-50 > * {
@@ -2234,8 +2237,18 @@ input, select, textarea {
 	}
 
 		ul.links li {
-			line-height: 2.5em;
-			padding-left: 0;
+		line-height: 2em; /* 增加行距 */
+		padding-left: 0;
+		color: #000000; /* 设置字体颜色 (蓝色) */
+		}
+
+		ul.links li a {
+		color: #065387; /* 如果列表项中有链接，设置链接颜色 */
+		text-decoration: none; /* 去掉下划线 (可选) */
+		}
+
+		ul.links li:hover a {
+		color: #025f34; /* 悬停时改变链接颜色 */
 		}
 
 /* Icons */
